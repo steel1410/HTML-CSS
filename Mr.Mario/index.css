@@ -1,0 +1,45 @@
+table{
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    --red: red;
+    --brown: brown;
+    --antiquewhite: antiquewhite;
+    --black: black;
+    --blue: blue;
+    --yellow: yellow;
+}
+
+td{
+    border: 2px solid rgb(6, 6, 6);
+    padding: 10px;
+}
+
+tr:nth-child(5) td:nth-child(5),
+tr:nth-child(5) td:nth-child(6),
+tr:nth-child(5) td:nth-child(7), 
+tr:nth-child(5) td:nth-child(8),
+tr:nth-child(5) td:nth-child(9),
+.red_color{
+       
+background-color: var(--red);
+}
+
+.brown_color{
+    background-color: var(--brown);
+}
+
+.antiquewhite_color{
+    background-color: var(--antiquewhite);
+}
+
+.black_color{
+    background-color: var(--black);
+}
+
+.blue_color{
+    background-color: var(--blue);
+}
+
+.yellow_color{
+    background-color: var(--yellow);
+}
